@@ -1,6 +1,6 @@
 {
   "key": "yapi-plugin",
-  "name": "yapi-plugin-import-rap2",
+  "name": "yapi-plugin-import-rap2-cookie2",
   "version": "0.0.1",
   "description": "a yapi plugin for import projects from rap2",
   "main": "index.js",
@@ -12,9 +12,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/77629296/yapi-plugin-import-rap2.git"
+    "url": "git+https://github.com/staceysrepo/yapi-plugin-import-rap2-cookie2.git"
   },
   "scripts": {
-    "dev": "node index.js"
-  }
+    "dev": "node index.js",
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/staceysrepo/yapi-plugin-import-rap2-cookie2/issues"
+  },
+  "homepage": "https://github.com/staceysrepo/yapi-plugin-import-rap2-cookie2#readme",
+  "author": "staceyzhou",
+  "license": "ISC"
 }

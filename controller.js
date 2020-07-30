@@ -33,7 +33,7 @@ class RapController extends baseController {
     }
     await axios.get(global.importRap.origin+'/backend/repository/get?id='+rap_project_id, {
       headers: {
-        "Cookie": "koa.sid=P8T0b_9E2vH_FHzJxW6jyQODJPRqsTm2; koa.sid.sig=27k_fX44DT1ZJ-dPicUMfEJ-tBk"
+        "Cookie": "koa.sid=OMpr7rXANs8NxP0cOGQMAJVZPVTBm1UZ;koa.sid.sig=0AwBgRlIy2ucB8bNOpxumZP7FPQ"
       }
     }).then(res => {
       let data = res.data.data
